@@ -1,0 +1,792 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .header-button a {
+    padding: 9px 24px;
+  }
+
+  .sticky .header-button a {
+    padding: 9px 24px;
+  }
+
+  .icons-box {
+    margin-left: 4%;
+  }
+
+  .sticky .icons-box {
+    margin-left: 4%;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-button a {
+    padding: 9px 12px;
+    font-size: 14px;
+  }
+
+  .wedding_menu > ul > li > a {
+    margin: 30px 7px;
+  }
+
+  .icons-box {
+    margin-left: 5%;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  .wedding_nav_manu {
+    padding: 0 60px;
+  }
+
+  .sticky .header-button a {
+    padding: 9px 12px;
+    font-size: 14px;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .service-area .single-service-box .single-service-content p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .testimonial-area .testimonial-description p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .project-area .project-thumb img {
+    margin-left: -20px;
+    width: 100%;
+  }
+
+  .project-area .project-thumb::before {
+    left: -20px;
+    width: 100%;
+  }
+
+  .blog-area .single-blog-thumb a::after {
+    left: -45px;
+    width: 58%;
+  }
+
+  .footer-area .single-footer.upper {
+    padding: 0 23px;
+  }
+
+  .feature-area .feature-title h3 {
+    font-size: 20px;
+  }
+
+  .service_area .single_service_box .service_description p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .weeding-area .weeding-icon {
+    right: 10px;
+  }
+
+  .weeding-area .weeding-icon.upper {
+    left: -85px;
+  }
+
+  .weeding-area .weeding-icon.upper::before {
+    width: 29%;
+  }
+
+  .weeding-area .weeding-icon::before {
+    width: 18%;
+  }
+
+  .weeding-area .weeding-thumb::before {
+    left: -45px;
+    width: 70%;
+  }
+
+  .testimonials_thumb img {
+    width: 100%;
+  }
+
+  .contact_area .single-contact-box .contact_shap {
+    right: -41%;
+  }
+
+  .blog-section .blog-content-text h5 {
+    font-size: 28px;
+  }
+
+  .widget-recent-post {
+    margin-bottom: 30px;
+  }
+
+  a.widget-archieve-item i {
+    margin: 0px 20px 20px 0px;
+  }
+
+  .owl-prev {
+    display: none;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .wedding_nav_manu {
+    display: none;
+  }
+
+  .sticky {
+    position: absolute !important;
+  }
+
+  .sticky .wedding_nav_manu {
+    display: none;
+  }
+
+  .slider-area {
+    height: inherit;
+    padding: 150px 0 0px;
+  }
+
+  .single-slider {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .slider-area .single-slid-tmb img {
+    margin-left: 0;
+  }
+
+  .section-title h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .about-area .about-thumb img {
+    margin-left: -25px;
+  }
+
+  .section-description p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .testimonial-area .testimonial-content {
+    padding: 60px 23px 55px;
+  }
+
+  .testimonial-area .testimonial-description p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .testimonial-area .testimonial-title h3 {
+    font-size: 16px;
+  }
+
+  .project-area .project-thumb img {
+    margin-left: -20px;
+    width: 100%;
+  }
+
+  .project-area .project-thumb::before {
+    left: -20px;
+    width: 100%;
+  }
+
+  .blog-area .single-blog-thumb a::after {
+    left: -15px;
+    width: 68%;
+  }
+
+  .blog-area {
+    padding: 80px 0 0px;
+  }
+
+  .shooting-area .section-title h2 {
+    font-size: 48px;
+  }
+
+  .slider_area.style-three .slider-titles h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .owl-prev {
+    display: none;
+  }
+
+  .slider_area.style-three .slider-description p {
+    width: 70%;
+  }
+
+  .weeding-area .weeding-thumb img {
+    margin-left: -10%;
+  }
+
+  .weeding-area .weeding-icon {
+    right: 0;
+  }
+
+  .weeding-area .weeding-icon::before {
+    background: inherit;
+  }
+
+  .weeding-area .weeding-icon.upper {
+    left: -74px;
+  }
+
+  .weeding-area .weeding-icon.upper::before {
+    background: inherit;
+  }
+
+  .blog-section .blog-content-text h5 {
+    font-size: 30px;
+  }
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .wedding_nav_manu {
+    display: none;
+  }
+
+  .sticky {
+    position: absolute !important;
+  }
+
+  .sticky .wedding_nav_manu {
+    display: none;
+  }
+
+  .slider-area {
+    height: inherit;
+    padding: 150px 0 0px;
+  }
+
+  .single-slider {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .slider-area .single-slid-tmb img {
+    margin-left: 0;
+  }
+
+  .about-area .about-thumb img {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+
+  .testimonial-area .testimonial-thumb img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .project-area .project-thumb img {
+    transition: 0.5s;
+  }
+
+  .video-area .video-title h3 {
+    font-size: 50px;
+  }
+
+  .single-footer {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-area .footer-short-list.upper {
+    left: 0;
+  }
+
+  .footer-area .footer-text p {
+    width: 70%;
+    text-align: center;
+    margin: 30px auto 30px;
+  }
+
+  .footer-icon-list ul {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  .slider_area.style-two .slider-titles h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .feature-area .single-feature-box {
+    text-align: center;
+  }
+
+  .shooting-area .section-title h2 {
+    font-size: 35px;
+  }
+
+  .slider_area.style-three .slider-titles h2 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .slider_area.style-three .slider-description p {
+    width: 75%;
+  }
+
+  .owl-prev {
+    display: none;
+  }
+
+  .weeding-area .weeding-shap {
+    display: none;
+  }
+
+  .weeding-area .weeding-icon {
+    display: none;
+  }
+
+  .weeding-area .single-weeding {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .weeding-area .weeding-thumb img {
+    margin-left: 0;
+  }
+
+  .weeding-area .weeding-content p {
+    margin: 25px auto 0;
+    width: 83%;
+  }
+
+  .contact_area .single-contact-box .contact_shapp {
+    display: none;
+  }
+
+  .contact_area .single-contact-box .contact_shaps {
+    display: none;
+  }
+
+  .contact_area .single-contact-box .contact_shap img {
+    display: none;
+  }
+
+  .blog-section .blog-content-text h5 {
+    font-size: 22px;
+  }
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .wedding_nav_manu {
+    display: none;
+  }
+
+  .sticky {
+    position: absolute !important;
+  }
+
+  .sticky .wedding_nav_manu {
+    display: none;
+  }
+
+  .slider-area {
+    height: inherit;
+    padding: 150px 0 0px;
+  }
+
+  .single-slider {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .single-footer {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-area .footer-short-list.upper {
+    left: 0;
+  }
+
+  .footer-area .footer-text p {
+    width: 70%;
+    text-align: center;
+    margin: 30px auto 30px;
+  }
+
+  .footer-icon-list ul {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  .slider-area .single-slid-tmb img {
+    margin-left: 0;
+  }
+
+  .about-area .about-thumb img {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .service-area .single-service-box .single-service-content p {
+    width: 80%;
+    margin: 0 auto 0;
+  }
+
+  .testimonial-area {
+    padding: 0px 0 80px;
+  }
+
+  .project-area .project-thumb::before {
+    left: 0;
+    width: 100%;
+  }
+
+  .project-area .project-thumb img {
+    margin-left: 0;
+    transition: 0.5s;
+    width: 100%;
+  }
+
+  .video-area .video-title h3 {
+    font-size: 40px;
+  }
+
+  .slider_area.style-two .slider-titles h2 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .feature-area .single-feature-box {
+    text-align: center;
+  }
+
+  .shooting-area .section-title h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .slider_area.style-three .slider-titles h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .owl-prev {
+    display: none;
+  }
+
+  .slider_area.style-three .slider-description p {
+    width: 75%;
+  }
+
+  .section-title.mobile-center h4 {
+    font-size: 40px;
+  }
+
+  .weeding-area .weeding-shap {
+    display: none;
+  }
+
+  .weeding-area .weeding-icon {
+    display: none;
+  }
+
+  .weeding-area .single-weeding {
+    text-align: center;
+  }
+
+  .weeding-area .weeding-content p {
+    margin: 25px auto 30px;
+    width: 83%;
+  }
+
+  .weeding-area .weeding-thumb img {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+
+  .weeding-area .weeding-thumb::before {
+    background: inherit;
+  }
+
+  .contact_area .single-contact-box .contact_shapp {
+    display: none;
+  }
+
+  .contact_area .single-contact-box .contact_shaps {
+    display: none;
+  }
+
+  .contact_area .single-contact-box .contact_shap {
+    display: none;
+  }
+
+  .instagram-area .instagram-box::before {
+    height: 80%;
+    width: 80%;
+  }
+
+  .blog-section .blog-content-text h5 {
+    font-size: 20px;
+  }
+
+  .block-quote p {
+    font-size: 18px;
+  }
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .wedding_nav_manu {
+    display: none;
+  }
+
+  .sticky {
+    position: absolute !important;
+  }
+
+  .sticky .wedding_nav_manu {
+    display: none;
+  }
+
+  .slider-area {
+    height: inherit;
+    padding: 150px 0 0px;
+  }
+
+  .single-slider {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .slider-area .single-slid-tmb img {
+    margin-left: 0;
+  }
+
+  .about-area .about-thumb img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .section-title.mobile-center h4 {
+    font-size: 30px;
+  }
+
+  .project-area .project-thumb img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .project-area .project-thumb::before {
+    left: 0;
+    width: 100%;
+  }
+
+  .project-area .project-content p {
+    font-size: 15px;
+    line-height: 28px;
+    width: 95%;
+  }
+
+  .video-area .video-title h3 {
+    font-size: 19px;
+  }
+
+  .single-footer {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-area .footer-short-list.upper {
+    left: 0;
+  }
+
+  .footer-area .footer-text p {
+    width: 87%;
+    text-align: center;
+    margin: 30px auto 30px;
+  }
+
+  .footer-icon-list ul {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  .footer-area .single-footer.upper {
+    text-align: center;
+    padding: 0 33px;
+  }
+
+  .footer-area .footer-bottom {
+    margin: 35px 0 0;
+  }
+
+  .slider_area.style-two .slider-titles h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .feature-area .feature-title h3 {
+    font-size: 20px;
+  }
+
+  .shooting-area .section-title h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .slider_area.style-two {
+    height: 700px;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .slider_area.style-three .slider-titles h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .slider_area.style-three .slider-description p {
+    line-height: 27px;
+    width: 95%;
+  }
+
+  .weeding-area .weeding-shap {
+    display: none;
+  }
+
+  .weeding-area .weeding-icon {
+    display: none;
+  }
+
+  .weeding-area .single-weeding {
+    text-align: center;
+  }
+
+  .weeding-area .weeding-thumb img {
+    margin-left: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .weeding-area .weeding-content p {
+    line-height: 27px;
+    margin: 25px auto 30px;
+    width: 95%;
+  }
+
+  .testimonials_thumb img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact_area .single-contact-box .contact_shap {
+    display: none;
+  }
+
+  .contact_area .single-contact-box .contact_shap {
+    display: none;
+  }
+
+  .contact_area .single-contact-box .contact_shaps {
+    display: none;
+  }
+
+  .weeding-area .weeding-thumb::before {
+    background: inherit;
+  }
+
+  .contact_area .single-contact-box .contact_title h4 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .contact_area .section-title h2 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  .contact_area .single-contact-box .contact_shapp {
+    display: none;
+  }
+
+  .contact_area .form_box input {
+    padding-left: 0;
+  }
+
+  .contact_area .form_box textarea {
+    padding-left: 0;
+  }
+
+  .contact_area .single-contact-box .quote_button .btn {
+    font-size: 15px;
+    padding: 10px 17px;
+  }
+
+  .instagram-area {
+    padding: 80px 0 0px;
+  }
+
+  .breadcumb-content h1 {
+    font-size: 50px;
+  }
+
+  .blog-section .blog-content-text h5 {
+    font-size: 17px;
+  }
+
+  .block-quote {
+    padding: 10px;
+  }
+
+  .block-quote p {
+    font-size: 15px;
+  }
+
+  .block-quoto-footer {
+    font-size: 14px;
+  }
+
+  .single-blog-social-icon ul li {
+    margin-right: 0;
+  }
+
+  .single-blog-social-icon ul li i {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+  }
+
+  .widget-recent-post {
+    margin-bottom: 20px;
+  }
+
+  a.widget-archieve-item i {
+    margin: 0 20px 20px 0;
+  }
+
+  .blog-content {
+    padding: 15px 15px 20px;
+  }
+
+  .project-area .project-content h3 {
+    font-size: 30px;
+  }
+}
