@@ -1,3 +1,0 @@
-admin account:
-username:  root(Not admin !!!!My wrong, edit the wrong username in the file.)
-password : password
